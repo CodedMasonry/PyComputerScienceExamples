@@ -3,6 +3,7 @@
 .config
 venv
 .breakpoints
+**/__pycache__
 
 # config
 .replit
