@@ -1,0 +1,8 @@
+# dependencies
+.git
+.config
+venv
+
+# config
+.replit
+replit.nix
