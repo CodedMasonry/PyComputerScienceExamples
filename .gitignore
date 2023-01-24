@@ -2,6 +2,7 @@
 .git
 .config
 venv
+.breakpoints
 
 # config
 .replit
