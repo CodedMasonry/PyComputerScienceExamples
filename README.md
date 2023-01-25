@@ -14,4 +14,3 @@ and
 https://github.com/jwasham/coding-interview-university
 
 I highly recommend checking those out, I am attempting to write the examples for anyone learning, including me
-(why version control so confusing man)
