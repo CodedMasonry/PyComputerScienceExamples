@@ -1,9 +1,10 @@
-from Examples import Array, LinkedList
+from Examples import array, linked_list, stack
 
 def main():
     print("a")
-    Array.Example()
-    LinkedList.Example()
+    array.Example()
+    linked_list.Example()
+    stack.example("list")
 
 if __name__ == "__main__":
     main()

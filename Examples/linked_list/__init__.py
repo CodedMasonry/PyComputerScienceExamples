@@ -1,35 +1,4 @@
 
-# I would not recommend using Linked lists in python as those are replaced with simple arrays already implemented
-# Ex: Item = [1,"g", true]
-def Example():
-    # Initialize the linked list
-    llist = LinkedList()
-
-    # Append some elements to the linked list
-    llist.append("A")
-    llist.append("B")
-    llist.append("C")
-
-    # Print the linked list
-    print("Linked List:")
-    llist.print_list()
-
-    # Insert a new element at the beginning of the linked list
-    llist.insert_at_beginning("X")
-
-    # Print the modified linked list
-    print("\nLinked List after inserting a new element at the beginning:")
-    llist.print_list()
-
-    # Remove an element from the linked list
-    llist.remove_node("B")
-
-    # Print the modified linked list
-    print("\nLinked List after removing an element:")
-    llist.print_list()
-    print("\n")
-
-
 class Node:
     def __init__(self, data=None):
         self.data = data
@@ -74,3 +43,33 @@ class LinkedList:
             return
         prev.next = current_node.next
         current_node = None
+
+      
+# Ex: Item = [1,"g", true]
+def Example():
+    # Initialize the linked list
+    llist = LinkedList()
+
+    # Append some elements to the linked list
+    llist.append("A")
+    llist.append("B")
+    llist.append("C")
+
+    # Print the linked list
+    print("Linked List:")
+    llist.print_list()
+
+    # Insert a new element at the beginning of the linked list
+    llist.insert_at_beginning("X")
+
+    # Print the modified linked list
+    print("\nLinked List after inserting a new element at the beginning:")
+    llist.print_list()
+
+    # Remove an element from the linked list
+    llist.remove_node("B")
+
+    # Print the modified linked list
+    print("\nLinked List after removing an element:")
+    llist.print_list()
+    print("\n")
