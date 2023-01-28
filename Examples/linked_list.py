@@ -46,7 +46,7 @@ class LinkedList:
 
       
 # Ex: Item = [1,"g", true]
-def Example():
+def example():
     # Initialize the linked list
     llist = LinkedList()
 

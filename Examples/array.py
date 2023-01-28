@@ -1,4 +1,4 @@
-def Example():
+def example():
     """
     This function demonstrates the use of arrays in Python. It creates an array called SomeArray, 
     prints the array to the console, prints the length of the array, and then adds and removes elements 
